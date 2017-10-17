@@ -1,0 +1,1 @@
+console.log('testing character counter file loading')
