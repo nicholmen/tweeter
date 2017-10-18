@@ -13,6 +13,7 @@
 
 .new-tweet .counter {
   float: right;
+  font-style: italic;
 }
 
 textarea {
