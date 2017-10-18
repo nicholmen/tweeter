@@ -35,8 +35,6 @@
   <!-- character counter js -->
   <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
 
-
-
 </head>
 
 <body>
@@ -52,35 +50,13 @@
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
       <form action="/tweets/" method="POST">
-        <textarea name="text" placeholder="What are you yammering on about now?"></textarea>
+        <textarea name="text" placeholder="What are you on about?"></textarea>
         <input type="submit" value="Tweet">
         <span class="counter">140</span>
       </form>
     </section>
-    <section class="tweet-container">
-      <article>
-        <header>
-          <span class="header-left">
-            <span class="user-photo"> <img src="http://vignette2.wikia.nocookie.net/spongebob/images/6/66/Funny_SpongeBob_Face_in_Tutor_Sauce.png/revision/latest?cb=20160509032417"> </span>
-          <span class="tweet-author"> name</span>
-          </span>
-          
-          <span class="author-handle">@handle</span>
-        </header>
-        <div class="tweet-body">
-          <p>tweet flk;dsafjdsklfjdlsk;ajfl;ka jdsa;lkjfsla;kdjfl;kdsajf;lk ajsflk;jdaskl;fjkl;adsjfkl;sadjf;lsdjaklfj;asdlkkfjl;dasjlk;afds</p>
-        </div>
-        <footer class="tweet-footer">
-          <span>
-            time
-          </span>
-          <span class="tweet-icons">
-            <i class=" tweet-icon fa fa-flag" aria-hidden="true"></i>
-            <i class="tweet-icon fa fa-retweet" aria-hidden="true"></i>
-            <i class="tweet-icon fa fa-heart" aria-hidden="true"></i>
-          </span>
-        </footer>
-      </article>
+    <section id="all-tweets">
+      
     </section>
   </main>
 
