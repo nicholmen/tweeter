@@ -46,11 +46,12 @@
   </nav>
 
   <!-- Page-specific (main) content here -->
+
   <main class="container">
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
       <form action="/tweets/" method="POST" id="new-tweet-form">
-        <textarea name="text" placeholder="What are you on about?"></textarea>
+        <textarea id="tweetInput" name="text" placeholder="What are you on about?"></textarea>
         <input type="submit" value="Tweet">
         <span class="counter">140</span>
       </form>
