@@ -1,4 +1,11 @@
 $(function () {
+  
+  // compose tweet functionality
+  $( ".composeTweetButton" ).click(function() {
+    $( ".new-tweet" ).slideToggle( "slow", function() {
+      $("#tweetInput").focus();
+    });
+  })
 
   //take in an array of tweet objects and then appending each one to the #tweets-container
   function renderTweets(tweets) {
@@ -70,9 +77,7 @@ $(function () {
     event.preventDefault();
     var form = this;
     var input = $(this).serialize();
-    console.log('input: ', input)
-    console.log('tweet-val', $tweetInput.val())
-    
+
     if (!$tweetInput.val()) {
       return alert("add something");
     }
