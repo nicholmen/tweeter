@@ -14,7 +14,7 @@ $(function () {
     // calls createTweetElement for each tweet
       var tweetHtml = createTweetElement(tweet);
       // takes return value and appends it to the tweets container
-      $('#all-tweets').append(tweetHtml);
+      $('#all-tweets').prepend(tweetHtml);
     });
     }
 
@@ -97,4 +97,3 @@ $(function () {
     })
   })
 })
-
