@@ -17,3 +17,8 @@ This app uses HTML, CSS, JS, jQuery, and AJAX on the front-end, and Node, Expres
 - Node 5.10.x or above
 - Body-parser
 - MongoDB
+
+## Screenshots
+
+![Screenshot of tweet compose box"](https://github.com/nicholmen/tweeter/blob/master/docs/tweet-box.png?raw=true)
+!["Screenshot of tweets"](https://github.com/nicholmen/tweeter/blob/master/docs/tweets.png?raw=true)
