@@ -1,10 +1,8 @@
-<!-- TODO: CSS on compose tweet button, implement moment js -->
-<!-- TODO: try use strict -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
   <!-- Meta Information -->
   <title>Tweeter - Home Page</title>
 
@@ -43,30 +41,32 @@
 <body>
 
   <!-- Top nav bar (fixed) -->
+
   <nav id="nav-bar">
     <span class="nav-left">
       <img class="logo" src="/images/bird.png">
       <span class="header">Tweeter</span>
     </span>
-      <button type="button" class="composeTweetButton">
-        <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Compose Tweet
-      </button>
-    
+    <button type="button" class="composeTweetButton">
+      <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Compose Tweet
+    </button>
   </nav>
 
   <!-- Page-specific (main) content here -->
 
   <main class="container">
+    
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
       <form action="/tweets/" method="POST" id="new-tweet-form">
         <textarea id="tweetInput" name="text" placeholder="What are you on about?"></textarea>
-        <input type="submit" value="Tweet">
+        <input class="submitButton" type="submit" value="Tweet">
         <span class="counter">140</span>
       </form>
     </section>
+
     <section id="all-tweets">
-      
+
     </section>
   </main>
 

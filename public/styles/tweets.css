@@ -5,13 +5,12 @@
   border: solid 1px darkgrey;
   margin-bottom: 2em;
   opacity: 0.8
-}  
+}
 
 .tweet-container .user-photo img {
   height: 40px;
   border-radius: 10px;
   margin-right: 5px;
-  
 }
 
 .tweet-container p {
@@ -44,7 +43,6 @@
   padding: 5px;
   font-size: 0.8em;
   padding: 5px 5px;
-  
 }
 
 .tweet-container .tweet-author {

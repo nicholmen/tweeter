@@ -9,16 +9,22 @@
   display: none;
 }
 
-.container h2 {
-  border-bottom: solid black 1px
-}
-
 .new-tweet .counter {
   float: right;
   font-style: italic;
+  padding-top: 5px;
+  font-size: .8em;
+}
+
+.container h2 {
+  border-bottom: solid black 1px
 }
 
 textarea {
   width: 100%;
   padding: 5px;
+}
+
+.submitButton:hover {
+ background-color: fuchsia;
 }
